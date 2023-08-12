@@ -1,1 +1,1 @@
-# imgayd
+# imgay
