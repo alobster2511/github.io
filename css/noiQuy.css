@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.ruleMain {
+    height: 68vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+.mainText {
+    padding: 0 10vw 0 10vw;
+}
+
+.mainText h1 {
+    font-size: 36px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(-45deg, var(--lightGreenColor), #ff0202 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ruleBox {
+    max-width: calc(100vw - 60px);
+    margin: 0 auto;
+    background-color: var(--greenBackgroundColor);
+    border-radius: 10px;
+}
+.darkMode .ruleBox {
+    background-color: var(--grayColor);
+}
+
+.rule {
+    padding-bottom: 30px;
+}
+
+.ruleBox h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: var(--blackColor);
+    padding: 22px 10px;
+}
+
+.darkMode .ruleBox h1 {
+    color: var(--whiteColor);
+}
+
+.ruleText {
+    color: var(--blackColor);
+    padding: 20px;
+}
+
+.ruleText p {
+    margin-left: 14px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ruleText ul {
+    margin: 10px 0 10px 40px;
+    font-size: 18px;
+}
+.darkMode .ruleText {
+    color: var(--whiteColor);
+}
+
+.ruleTitle h3 {
+    font-size: 26px;
+    color: var(--lightGreenColor);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 0;
+}

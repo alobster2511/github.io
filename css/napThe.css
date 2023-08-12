@@ -1,0 +1,68 @@
+.donateMain {
+    height: 68vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+.mainText {
+    padding: 0 10vw 0 10vw;
+}
+
+.mainText h1 {
+    font-size: 36px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(-45deg, var(--lightGreenColor), #5eff00 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contentBox {
+    width: calc(100vw - 90px);
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: var(--greenBackgroundColor);
+    padding: 20px;
+    color: var(--blackColor);
+}
+
+.darkMode .contentBox {
+    background-color: #3b3b3b;
+    color: var(--whiteColor);
+}
+
+.contentBox h4 {
+    color: var(--lightGreenColor);
+    font-size: 28px;
+}
+
+.contentBox p {
+    padding: 4px 10px 4px 20px;
+}
+
+.contentBox h5 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 4px;
+}
+
+.contentBox img {
+    width: 360px;
+    margin: 2px 0 4px 20px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 500px) {
+    .contentBox img {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+}
+
+.section {
+    padding-bottom: 20px;
+}

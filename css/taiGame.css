@@ -1,0 +1,111 @@
+.taiGame {
+    height: 68vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+.mainText {
+    padding: 0 10vw 0 10vw;
+}
+
+.mainText h1 {
+    font-size: 36px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(-45deg, var(--lightGreenColor), #ff00c8 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gameDownload {
+    padding-bottom: 20px;
+}
+
+.box {
+    width: calc(100vw - 60px);
+    margin: auto;
+}
+
+.tab {
+    display: flex;
+    background-color: var(--greenBackgroundColor);
+    border-radius: 16px 16px 0 0;
+}
+
+.tabLinks {
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    background-color: transparent;
+}
+
+.tabLinks:hover {
+    background-color: #e4db88;
+}
+
+.tabLinks.active {
+    border-radius: 16px 16px 0 0;
+    background-color: #9afa9a;
+}
+
+.tabContent {
+    background-color: #9afa9a;
+    padding: 20px;
+}
+
+.darkMode .tab {
+    background-color: var(--grayColor);
+}
+
+.darkMode .tabLinks {
+    color: #fff;
+}
+
+.darkMode .tabLinks:hover {
+    background-color: var(--darkGreenColor);
+}
+
+.darkMode .tabLinks.active {
+    background-color: #3b3b3b;
+}
+
+.darkMode .tabContent {
+    background-color: #3b3b3b;
+    color: #fff;
+    border-radius: 0 0 16px 16px;
+}
+
+.tabContent p {
+    padding: 0 20px;
+}
+
+.tabContent a {
+    color: #0267aa;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tabContent ul {
+    padding: 0 20px 0 38px;
+}
+
+.tabContent h4 {
+    font-size: 26px;
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+
+.tabContent img {
+    max-width: 80%;
+    margin: 8px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 620px) {
+    .tabContent img {
+        max-width: 92%;
+    }
+}
